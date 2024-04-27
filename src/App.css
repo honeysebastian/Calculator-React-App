@@ -1,0 +1,61 @@
+.main{
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(48, 46, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator{
+  border-radius: 16px;
+  padding: 1rem;
+  width: 350px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.input{
+  width: 316px;
+  height: 80px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.input-value{
+  color: rgb(53, 50, 50) ;
+  font-weight: 700;
+  font-size: 30px;
+  padding-left: 7px;
+}
+.ac{
+  width: 159.5px;
+  height: 50px;
+  margin-top: 5px;
+
+}
+.del,.btn-content{
+  width: 75px;
+  height: 50px;
+  margin-top: 5px;
+}
+.first-row,.second-row,.third-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.first-row{
+  margin-top: 10px;
+}
+button{
+  background-color: rgb(53, 50, 50);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+button:hover{
+  background-color: rgb(124, 123, 123);
+  color: black;
+}
